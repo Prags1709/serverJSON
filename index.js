@@ -1,9 +1,9 @@
 const express = require("express")
 const { connection } = require("./config/db")
-const { user_router } = require("./route/user.router")
+//const { user_router } = require("./route/user.router")
 const { post_route } = require("./route/post.router")
 //const { dogRoute } = require("./route/post.router")
-const { authentication } = require("./middleware/authentication.mid")
+//const { authentication } = require("./middleware/authentication.mid")
 require('dotenv').config()
 const cors = require("cors")
 
@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
     res.send("welcome")
 })
 
-app.use("/users", user_router)
-app.use(authentication)
+//app.use("/users", user_router)
+//app.use(authentication)
 //app.use("/dogs", dogRoute)
 app.use("/dogs", post_route)
 
