@@ -1,1 +1,1 @@
-{"dogs":[{"id":234324332,"name":"Huski","age":12,"gender":"male","place":"Chennai"}],"admin":[{"email":"admin@gmail.com","password":"admin"}]}
+{"dogs":[{"id":234324332,"name":"Huski","age":12,"gender":"male","place":"Chennai"},{"name":"puppy","age":22,"gender":"male","place":"pune","userID":"644233ce54c9985f4ccef200","id":231106}],"admin":[{"email":"admin@gmail.com","password":"admin"}]}
